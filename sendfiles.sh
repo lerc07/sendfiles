@@ -39,7 +39,7 @@ verificar_e_instalar_dependencias() {
 verificar_e_instalar_dependencias
 
 # Variaveis
-bgtitulo="SendFILE - Envio de Arquivos para RouterOS - By LeRc - Ver.: 1.0"
+bgtitulo="SendFILES - Envio de Arquivos para RouterOS - By LeRc - Ver.: 1.0"
 
 send_via_ssh() {
     local ssh_target="$1"
