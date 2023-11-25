@@ -146,10 +146,9 @@ case "$escolha_arquivo" in
             --title "METODOS DE TRANSFERÊNCIA" \
             --radiolist "
 Escolha o método de transferência:" 12 45 3 \
-            "SSH" "SSH" OFF \
-            "TFTP" "TFTP" OFF \
-            "FTP" "FTP" OFF)
-
+            "SSH" "Porta Ajustável" ON \
+            "TFTP" "Porta Padrão: 69" OFF \
+            "FTP" "Porta Padrão: 21" OFF)
         case "$escolha_metodo" in
             *SSH*)
                 ssh_target=$(dialog --stdout --backtitle "$bgtitulo" \
